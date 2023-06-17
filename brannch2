@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class q__4 {
+    public static void main(String[] args) {
+         Scanner sc=new Scanner(System.in);
+        System.out.print("Enter Alphabet:-");
+         String a=sc.next().toLowerCase();
+                 char r=a.charAt(0);
+        System.out.println(r+" :- "+  is_vovel(r));
+    }
+    public static String is_vovel(char s){
+
+
+        if(s=='a'||s=='e'||s=='i'||s=='o'||s=='u'){
+            return "is Vovel";
+        }
+
+
+return "is Consonent";
+    }
